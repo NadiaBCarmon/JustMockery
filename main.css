@@ -1,10 +1,9 @@
-/*media query makes the header take up 1/8 of screen when website is in smallest view */
+@media screen and (max-width : 600px) {
+	header {
+		
+	}
+}
 
-/*@media only screen and (max-width: 600px) {
-    header {
-        position: fixed;
-    }
-}*/
 
 html {
 	height: 100vh;
@@ -25,7 +24,7 @@ header {
 	color: white;
 }
 
-#mate {
+#bestie {
 	font-family: Dancing Script;
 	display: inline-flex;
 }
@@ -35,21 +34,24 @@ header {
 	display: inline-flex;
 }
 
+
 .first-four {
 	display: inline-flex;
-	margin-left: 125px;
+	margin-right: 6px;
+	margin-left: 8px;
 	margin-top: 10px;
 }
 
 .second-four {
 	display: inline-flex;
-	margin-left: 125px;
+	margin-right: 6px;
+	margin-left: 8px;
 	margin-top: 10px;
-
 }
 
 .third-four {
 	display: inline-flex;
-	margin-left: 125px;
+	margin-right: 6px;
+	margin-left: 8px;
 	margin-top: 10px;
 }
